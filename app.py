@@ -2,8 +2,8 @@ import streamlit as st
 import joblib
 
 # Load the saved model and vectorizer
-model = joblib.load('model/model.pkl')
-vectorizer = joblib.load('model/vectorizer.pkl')
+model = joblib.load('Model/model.pkl')
+vectorizer = joblib.load('Model/vectorizer.pkl')
 
 # Function for Fake News Detection
 def classify_fake_news(text):
